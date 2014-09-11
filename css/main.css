@@ -40,6 +40,15 @@ p.transbox {
 }
 
 h1 {
-    font-family: sans-serif;
-    font-size: 18px;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+dt {
+  font-family: sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: grey;
+  float: left;
+  clear: left;
 }
