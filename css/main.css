@@ -29,26 +29,50 @@ body {
 img {
   display: block;
   width: 100%;
+  border-radius: .5rem 0 0 0;
 }
 
-p.transbox {
+.image{
+  position: relative;
+  width: 100%;
+    
+}
+
+.mainwrap {
+  background-color: white;
+  border-radius: .5rem;  
+}
+
+.quote {
   font-family: Georgia, serif;
+  font-style: italic;
+  position: absolute;
+  top: 200px;
   color: white;
-  background-color: black;
-  opacity: 0.6;
-  filter: alpha(opacity=60);
+  width: 100%;
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.4);
+  padding: 1rem;
 }
 
-h1 {
+.title {
   font-family: sans-serif;
   font-size: 18px;
+  padding: 1rem;
 }
 
-dt {
+.category {
   font-family: sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   text-transform: uppercase;
   color: grey;
+  float: inherit;
+  padding: 1rem;
+  width: 30%;
+}
+
+.content {
   float: left;
   clear: left;
+
 }
