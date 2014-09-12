@@ -26,17 +26,15 @@ body {
   background-color: #C0C0C0;  
 }
 
-img {
+.pic {
   display: block;
   width: 100%;
   border-radius: .5rem 0 0 0;
 }
 
-/* problem here because the div wraps around*/
-.image{
+.image {
   position: relative;
   width: 100%;
-
 }
 
 .mainwrap {
@@ -53,7 +51,6 @@ img {
   top: 150px;
   color: white;
   width: 100%;
-  background: rgb(0, 0, 0); 
   background: rgba(0, 0, 0, 0.3);
   padding: 1rem;
 }
@@ -68,7 +65,7 @@ img {
 
 .title {
   font-family: sans-serif;
-  font-size: 19px;
+  font-size: 18px;
   padding: 0 1rem;
 }
 
