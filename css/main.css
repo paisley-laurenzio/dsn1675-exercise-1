@@ -36,7 +36,6 @@ img {
 .image{
   position: relative;
   width: 100%;
-  padding-bottom: 0 0 -5rem 0;  
 }
 
 .mainwrap {
@@ -49,7 +48,7 @@ img {
 .quote {
   font-family: Georgia, serif;
   font-style: italic;
-  position: relative;
+  position: absolute;
   top: -97px;
   color: white;
   width: 100%;
@@ -79,12 +78,13 @@ img {
   color: grey;
   float: left;
   overflow: hidden;
-  padding: 0 6rem 0 1rem;
+  padding: 0 6rem 1rem 1rem;
   width: 33.33%;
 }
 
 .content {
-  padding: 0 0 0 1rem; 
+  padding: 1rem 0 0 1rem; 
+  position: fixed;
 }
 
 
