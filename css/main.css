@@ -48,11 +48,12 @@ body {
   font-family: Georgia, serif;
   font-style: italic;
   position: absolute;
-  top: 150px;
+  bottom: 0px;
   color: white;
   width: 100%;
   background: rgba(0, 0, 0, 0.3);
   padding: 1rem;
+  margin: 0;
 }
 
 .line {  
