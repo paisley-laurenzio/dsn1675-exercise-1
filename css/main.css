@@ -32,33 +32,44 @@ img {
   border-radius: .5rem 0 0 0;
 }
 
+/* problem here because the div wraps around*/
 .image{
   position: relative;
   width: 100%;
-    
+  padding-bottom: 0 0 -5rem 0;  
 }
 
 .mainwrap {
   background-color: white;
-  border-radius: .5rem;  
+  border-radius: .5rem; 
+  margin-bottom: inherit;
+  padding-bottom: 6rem;
 }
 
 .quote {
   font-family: Georgia, serif;
   font-style: italic;
-  position: absolute;
-  top: 200px;
+  position: relative;
+  top: -97px;
   color: white;
   width: 100%;
   background: rgb(0, 0, 0); 
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.3);
   padding: 1rem;
+}
+
+.line {  
+  float: left;
+  width: 33.33%;
+  box-sizing: inherit;
+  border:left;
+  border-left: thin solid #C0C0C0; 
 }
 
 .title {
   font-family: sans-serif;
-  font-size: 18px;
-  padding: 1rem;
+  font-size: 19px;
+  padding: 0 1rem;
 }
 
 .category {
@@ -66,13 +77,15 @@ img {
   font-size: 14px;
   text-transform: uppercase;
   color: grey;
-  float: inherit;
-  padding: 1rem;
-  width: 30%;
+  float: left;
+  overflow: hidden;
+  padding: 0 6rem 0 1rem;
+  width: 33.33%;
 }
 
 .content {
-  float: left;
-  clear: left;
-
+  padding: 0 0 0 1rem; 
 }
+
+
+
